@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="עבודות קטנות"><meta name="theme-color" content="#5b5bf0">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAIAAACyr5FlAAAVEElEQVR4nO1d6X8UZbY+Vb1VhzWGVRbZBBRhEFABmUE2YYYdJAhkIYCAgEDym7/hfrn3R6IgTC5LIiGEnQuIiOCICDiggEYEFJEdwxoSIF29Vd0PLdDpOtVdb3ctb1X3+fjm6ZMnJ6erTr3n1PswM2Y8AMwYxYtGgHF4irO6YJYGEpaPskk5I8lBOWM6aBCBzco5MjnoZ0wBDSKwiTmzCqDakSACmzjKRtMgAj9bZmNBtSNBBDZ3lA2lQQSut8waRIIIbPooG0eDCBy5zBpBgghshSgbRIMIjCyzpmNsBA0isHU4K32UVYkEEdg6UTYpZ0WPsiqRIAJbKsr60iACR+Mc+1FWJRJEYKtFWUcaROAYnGM8yqpEgghswSjrRYMIHJtztEdZlUgQga0ZZV1oEIEVcZZ9lFWJBBHYslHWngYRWCln/FFWJRJEYCtHWWMaRGACzpS07C0eZZNypqFlb/0o0wEm5mx4yz4pokwBOB7OxrbskyXKRoPj5Gxgyz6JomwoOH7ORrXskyvKxoET4mxIyz7pomwQOFHO+rfskzHKRoBV4Kxzyz5Jo2xSznq27JM3yvqCVeOsW8s+qaOsI1hNzvq07JM9ynqBVeasQ8s+FWV9wOpz1rpln4qyPmBNOGvask9FWR+wVpy1a9mnoqwPWEPOGrXsU1HWB6wtZ7sGfgkYF69vzOIXr5SBIMA/cx6CcdmsesteBcYpCzcDr3PqtuxTmaGyGXsHVLFln8oMPUzP2kitln0qM/QwnatmVVr2qczQw/R/nop8WiH3q2FmnK0MrPifOkGI3zPlT62Zc7j+bzlkPhQBNoBzgi17ba8ZL/eyT5zKxe2Z8swYNMJBc2ZAYi17Pe4mI0Y7X3/TEYdnyjOjc3fb+CwO+6EUbBjnuFv2WjGWWvYcd/uONitlRnoGm7vYbbPJfKwe2EjO8bXsNcyMiAoDABwOeD/f3bhJ5Cco4UwKdjhhVr67YeP4S3PdOMfRstf2mrFrq1cIRi6mP8fOXZJmD6ueKeEcB3jqe1ybDkjL4PsjfhlnmtBQsk7astf8bvLrucCWDbx0vXNX29RcLg7PVGXG0DHOPgOQIvT4If+xg7GTQ2fORC17neqMQwd8Rw8hkRo0xDl4uNO8mdG9l330VJf0p5cvBLeXIt8HjWgoBytv2etXgQJARann0m+SuwvAlGyuS3ekkKM/M5q3YrMXcYwEUVMtlhZ5ggEZj2rTIAIrfMte18wAgGAAiovqaqrFiHWbDeYuTnuumZJmMkWZ4eKYWQVud1okJOCHkkLPw5rIP1MjGqRgeqNc80AsLqoLSG4vDRsz8/Pdzie3F6o4o4sMA1kLuJbPIxfpbev4a78Hn4Ap4hyymC17IxlfuhisKPVIMW1fsGXP5eQ90xXlkZNdPfogbYrDn/u++8b/BEwX55BFb9nrzVhqx772Hzrgk6737e8YNQ4p7miLcq/X7CPGO6WACz8H92z0PgET3HJ1ywyI2rI3PjNC4G0b+AvnkOJ07BTXK73t9cF0ZUbrtuy0eUgRev+OULbcE9ruozYzQL5lT0tmAIAQhNXL6+7fi9w6ZRjIW+h+ei+nLTPSGjKzCtwuLhLl84rrCj2PH4lAd2aAzKMsRZkRske1YnGhxy+5vXBuZn5BmjuNoS0zWBZyFnEZLZDwVhTzf1wVgPrMYLBHWeoyI2TXLgfLViPFaYtWbN4Ct/TSTUpDXfDYaa6uryBF6MFdvsoTATBDZoDkUZbSzAjZyW/9B/cixWmP3vZxmZHFqYGZ0W+QY/DfkSL07OnA59u8YJLMgPqPsnRdmdH1/9vEn6tEdhNHjHX2HWCPAGtHI8piu462zNnIoMbtm0L5Sl4UzRHnkNFVzcnZU7AowrqPPXduSfr6AFnvudt2MFiVrFETJi/fbZd01vg6saTQw3tEojjLmW5/YCia5siMkNU9FouX1Xn5yC1nhxPm5bsbYXMS+mSGzQYzl7ibPhcJFEXYsJK//YdgrswAANZcmRGyqhviJ6t4UdKRSM9gZ0smrHS7Mk/K5Tp2RZqCn23xnvshYLrMAEoOxpczGc8MAFSeDOzbiRSnXbrb3snhwsBEnuMHDxzmGDAUGdT44Xjg33t8ZswMhgYtezmLkhkh27fTW3kSKU4HDXO8OdRBSiMRcMdutok5SBF686qwuZg3aWaA4Qfjy1nMzAAAUYT1q/iqG0hxOiWX69wNn99V/Q9smsHkLUGmhR8/FEuwjbvovzFuGqqC/1w2t5Y9z4v/W+jx1CFjH7OXuNMzIj+iOmeHE2YtRaaFhSCsX+6pvoMPapgiM8ACWvZ3qoTSFUhx2qgxM2ep2+GsB06YRqRlzubadkQuUbvKvRfPIpc0jWioB663TJeWvYyHGPfss5WBPVu8UkC7jrZpc6LNJCfIechoZ983kSL0u8P+o1/g08JqRINgPcFvIEVa9jIeFFVzB/b4Tn6LFKf9BjqGj8FnkhPk3K0nPi189WJwewmSqco9RzGdr820aNnLeCCo8ytW8zeuIFfysVNdL/VSdLqV3Lp0MaMlm7OIkx5YVftALC3ipaONyj1HMf3v2lRo2ct4IMgMBsDnE1cXeh4/jKw+GAZyF3EtWql2VrOLY2bnu90NIn8SDMAnRXytZChauecoZkg9Z7yWvYwHsswI2f27wrrlHukLc+40Zk6Bm3MzUWgo5MwwMH0+16ot8qXaXuq9gr1OYdLMAMO17GU8xJMZIbtwNrijHLnlt3yezVnAyb3fp5zz2xOdPfshgxpHD/hPYC9imTczwJJa9oe/8B0/jPyferxq/8cUdCZZqeeefe1vT0Q8XDwX3LUByUhK6rm440yXlr2ckXreUsJfuYhc4UeMc776RsRMslLPLduw099HpoWr74ply3npvYyeaGCLir6BFGnZy1kcngN+WFvkqX2A1IbT5nFt2hPv7rgbMLOxaWG/D0oKPY9qJVUwOWeFpue1mRYtezmL23NNtbj2Q+QdVKeTmV3gbtAInTrFPbMs5CzkmrVEitDNq/mbkudnCqMRtkhw1zZjy14p+PKF4Fbs7fXnmrF5i92sZNdbzvOYqa5ukp0SAPhqj+8Hyc4btdEA8nrOdC17MvB/DvmPYOdedHnJNjEr9lF0ANB3oOOt0ci08Pkfg59tiWy50h0N4krfXC37eMA7y/iL55HiNPwwPznP7TrYMucggxp3q4TyjyO7fXRHI55nQOtr2QeDUPKR58E9pDh9ZybX8UX8KDoAaNSYycuv19cNGe8RS5bxEXMCuoeOCBxnnKnTslfuQTmNR7XiGmzuxmaHvKXuJumIG7sNcpe4m0omQkQRNq7y3rpZrwi1ZGYAbVr2yj2Q0rhxObhpDVKcoi8TMAATcrhO2CzZ/u2+s6cCEWDlNIjAyj3Ie07o2kyRlr1yD/HROHXMf+gzZGqvfad6ryExAP2HOAYOQwY1Kr8LfLmrngcLZwbQo2Wv3EMiNPZs8v7yEzb2Mcjx1j+cIXDHrrZJuUgRWnVd2FzsDS9CrZ0ZQImWvXIPCdIQBFi/gr+HvTA35l1X9572JulM7hK3TbKpUfdILFnGh79JZfnMYGjQslfuQRUansfiukKP9IU5loXsRdzsf6Y1khyVLAhQtoK/d/tZSiVDZoDhWvbKPahEAwDgj+vCxn8hM8nuBkybF5BL6acV3gtnnu2UJElmQNJq2f/0feDALplXSurbySOBw/ue7bEayFkBWOU406VlL2daRHn/du/Pp2KcDXvtkrB17bMHYJ3/2XKm2zeQIi17OdPoXyKKUL6Sj9jOCreHNWJpoefptHCyZQbQo2UvZ5r+S7y8uHGV7KHjO0q9NfdFHWgoN53v2lRo2cuZ1v8ShoERE5COa8iGjHGEdk6TMzMYGrTs5UyHf8nbk1yv9EUGNULWvrNtcp4raTMDtGnZmyMzevazR7lshOy1vzn+OjJyHz1JMgPo1LLXAdyqLTttPjItLLUx011dXn7WgUuezAAKtex1AKc1ZGbl49PC9+9EPrywNshezKU3p2gSO6VlHzeNGODQNnkGNi28ZQ2/9r956c56WkMmL59z4eWHhpkh40E/GrRr2av+/Rsjc7bwob2+08cCt24KFSu90p311u3ZzLkJvRBFCpbxoGuCUq1lr3pm9JU5W/h8ZXDvJl8I/POpwBfbkZ31Xm/Yh46r91lrZwao0bI3TWbInS18t0ooXxE6W/hP+3KX76fvkJ31kVOcLz0R8bB8ZjDUatmrnhmyZws/mRYOB4sibC72Vl1HRDymLXQ1b63hhJSMB2MqfRq17FXPDJsdcpe4m2BnC4emhaVOvLxYuoyvexRZfXBuZmYBx0mk/KyXGUChlr0W4Ek5+NnC+7f5zp4KyHm+f1soX8FL5dObt2anLXCF75Fo+QcaGWfqtOxV9zxwuKM/drZw5YnAwV2+6J4vnAl+VoGcrdC9t33kFCcRjTjAcqbbl4o6LXt1PXfqZpuQjRShf1wVNhV7lXg+vM9/6ihSnA4Z5+z1ht3CmQEUatmr6LlpBpMre7Yw7/cqPbxr2xr+xiVk7CNzHte6vSadSznT+a5No5a9Kp4dTsjLx88WLlvOV0u2yaN4DvphfRFyCIfDCTn5XING9T5HZzTiA1OqZZ+458w5XNsOSBG6u9x78azSY92erj+4J5Z9yAcln0tvzk7/gHt6mgO10YgPTKmWfYKeh4xx9hmIFKEnvsbPFlbi+fIvwd3rkeK088u20dNdck5oiEbcYHq17OMGd+uFny185bfgDuxsYeWe//Ol/8S/kdx6c6Sj39+QXKQhGomAqdOyV+4BXW/Wis1ehAxq1FaL64t46SlQpJx3rfde+RW5K03Ic7XrbIsAk3im8RtIu5Y9kWcXx8wqcLsl25cBP5QW8dLz4+LgHAxA2Yf808Hjp2Z3QNZSrlFTJi7PBPHQ8wJjAi17hesMAzMWcE/Vy8Nt+zr+muTkybg5P6oRy8JeWXhqjdOZrKWc3WGRzABTaNkrXB812dWjDzKo8c3n/u+/UXSsm9y6dPH6JWHHWuSdhvZdbBNmIuWOvGd6MwPMomUfc73Xa45h45FBjQtngp9ujCxCVeF8+kjgyD6kOO072DFghKKZZMozgzGRln2U9dZtbe/Oc0mL0Hu3hQ2SzpmKUd5X4f3tDFKcjs5ydXopxkwy/ZkB5tKyR9cbNGTzCjjptDDac1c3yoIAFSv4+7eRmeRpi7mmzRh5zybIDDCdln2E2Vgm+wMuo0Xk9U8UYdO/Iqd1tKBR90gsK+R9kjZNg0ZMdr7bib0WY6I4m0zLvv4iM3a668UeyB75wZ2+M9/HPtZN3jMB+NY1YVsxsrfW+gV28tzIhrBZ3vgKmfm07J8sMv0G2f86CtmXPHMycGBn7GPd5D0Tg8+cCHyFnfbRs7998FhnGNhMmQEm1bJngGnXiX0Hmxa+dV3YtCr2sW7ynuMEH9zmO38aGfsYkens+hcbmDAzwJwH4zONmjAzsWnhukdiSWHsY93kPccPFkXYvNJ7R3LaB8PA1IVc81YE8thypntRYkIte5sdcpdy0mOHBQHK658UqHM15/WIG5bxvEQem0tjZhS4XO7ID1GeGWC2g/EZAJg009XhReSLuLfC+2usY93kPasDvlslbFmJHEXX/Hl2yvuKZpJVoZEw+M9lk2nZvznC8cZbSBGq5Fg3lWjEAP/yQ/DAVqQ47d7HNmxytJlkquIcMjNp2XfqbhuXhXQurv0ubIt1rJtKNBSBv97t++k4UpwOHu/o8Ro+k2w45yeL9ZZNo2XfNIPJWcxJp4Uf1oifxDrWjZRG4uAdxd6qq0hxOnm+q2U7pW8ZKv91cuuJZAaYRcteblo4GID1RXxNdbRj3UhpqBJlvw/KC5EX5pwumFHApTVkwsAEpmdmgFm07Ke+x7XpgDxY7Sj1Xr4QVJGGilGuviNu+sgrlRRNb85M/cDFstE8K/918jSIwDjcBFr2Q8c6ew9ABjWOhYlA05YZIfv9bHDfRqQ47dTDNnK6k/LMYOjXsu/+F9vfM5H+VbgINJ2ZEbJv9/tPH0aK04GjHL0HyR5kmBgNIrBsZgDlWvbNW7FZC2VEoD/6UwSa5swIgXeXeK9fRN6hGjfb1aYTvkOdAA0icLTMAJq17Dk3k4cdduD3Qekyz+OHosY0iMDRohzwQ0UR/6gGmUmels81lCh4JECDCBwjM4BaLXuGgekLXC2waeHNxfzNq4KmNFSPcm21uBF7MaJxOvPuUpfNrkJlqjpnoFbLfuQ7zpdfRW7JX+72/Xg8oCkNLaIMANcuCJ+WImMf7V+0jcnFZ5JJaBCBlXKmUcu+1+v24di08LnTgf1bfZrS0CjKocWThwInMHnsvkPsrw9HegLKPZOACThT17Jv3Z59dx7yTbp9U9i40ht+rJvqNDTNjJDtK/NdxuSxR2U7O3TH2/oKPSsDk3GmrmU/PsvllBwH66kTS5fxvEc0dWYAQDAImz/y1kjksW02GIY9sSv3rABMzJm6lr1UHlwUYePH/J0q5Fg3tWjokxkhe1wrbizkpfLYrPxTrVGcadSyj7B9W3znfwxaIzNCVnVZ2L0GKU4T96wuZ9q17E9/G/hqD36sm0o0iMAqZEZovfJY4OhepDhN3LNkMX7OVGvZ37gsbF3NWy8zQnZws++3SqQ4Tdxz2GJCnO0qkSACKyw/oE0H9r/WNVQITgbTOZup1rJPWbjpf52jV8s+ZeFmyB2QUi37lIWbUbURjVr2KQs3A6tm6rTsUxZuxj5PMYtn1JKTIAKrzFgXcIozAFVa9haOsvZgTTjTomVv7ShrDNaKMxVa9paPskk5G69lnwxR1gysLWeDteyTJMragDXnnKRa9vUXU5zxxWTUsq+/mOIsu0iXlr1Vo6wqWD/OFGnZWzjK6oF15UyLlr21o6wSWG/OVGjZWz7KJuVsvJZ9MkQ5YbAxnA3Wsk+SKCcGNoxzUmjZP1lMcSYD06Vlb9Uoxws2mDNFWvYWjnJcYOM506Jlb+0ok4Op4EyFlr3lo2xSzsZr2SdDlEnAFHE2WMs+SaKsGEwXZwtq2UOKs0pg6rTsLRllBWAaOdOlZW/VKMcCU8qZIi17C0c5KphezrRo2Vs7yvJgqjlToWVv+SiblLPxWvbJEGVs0QScDdayT5IoSxbNwdncWvYpzpqC6dKyt2qUwxbNxJkiLXsLR/nJosk4/z+2OC7YtDzLJwAAAABJRU5ErkJggg=="><link rel="icon" href="data:image/png;base64,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">
+<title>עבודות קטנות</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#eef1f6;color:#172033}.app{max-width:430px;margin:auto;min-height:100vh;background:#fff;box-shadow:0 0 30px #0001}
+header{padding:20px;background:#fff;border-bottom:1px solid #e7eaf0;position:sticky;top:0;z-index:5}.logo{font-size:27px;font-weight:900}.sub{font-size:13px;color:#697386;margin-top:4px}
+main{padding:18px 16px 100px}.screen{display:none}.screen.active{display:block}.hero{background:#172033;color:#fff;border-radius:22px;padding:20px;margin-bottom:16px}.hero h1{margin:0 0 8px;font-size:23px}.hero p{margin:0;line-height:1.5;color:#dbe2ee}
+.card{border:1px solid #e1e5ec;border-radius:18px;padding:16px;margin:12px 0}.row{display:flex;justify-content:space-between;gap:12px;align-items:center}.title{font-weight:800;font-size:17px}.meta{font-size:13px;color:#697386;line-height:1.55;margin-top:5px}.price{font-weight:900;font-size:20px;white-space:nowrap}
+.tag{display:inline-block;padding:5px 9px;border-radius:9px;background:#eef7ff;color:#1769aa;font-size:12px;margin-top:9px}
+button{font-family:inherit;cursor:pointer}.primary{width:100%;border:0;background:#1769aa;color:#fff;border-radius:13px;padding:13px;font-size:16px;font-weight:800;margin-top:12px}.secondary{width:100%;border:1px solid #d8dee8;background:#fff;border-radius:13px;padding:12px;font-weight:700;margin-top:9px}
+input,select,textarea{width:100%;border:1px solid #d8dee8;border-radius:12px;padding:12px;margin:6px 0 12px;font-size:15px;background:#fff}label{font-size:13px;font-weight:800}
+.notice{background:#fff6da;padding:12px;border-radius:13px;font-size:13px;line-height:1.55;margin:10px 0 16px}.success{background:#eaf8ef;color:#176b39;padding:12px;border-radius:13px;font-size:13px;margin:12px 0}
+.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);max-width:430px;width:100%;background:#fff;border-top:1px solid #e3e7ee;display:flex;justify-content:space-around;padding:9px;z-index:10}.nav button{border:0;background:none;color:#697386;font-size:12px}.nav button.active{color:#1769aa;font-weight:900}
+.chips{display:flex;gap:7px;overflow:auto;padding-bottom:4px}.chip{border:0;background:#eef1f6;border-radius:12px;padding:9px 12px;white-space:nowrap;font-weight:700}.chip.active{background:#172033;color:#fff}
+.step{display:flex;gap:10px;align-items:flex-start;margin:14px 0}.num{min-width:28px;height:28px;border-radius:50%;background:#1769aa;color:#fff;display:grid;place-items:center;font-weight:800}
+.small{font-size:12px;color:#697386}.back{border:0;background:none;padding:0;font-weight:800;margin-bottom:15px}.danger{color:#b3261e}
+.paybox{border:1px solid #dfe4ec;border-radius:15px;padding:14px;margin:10px 0}.paybox b{display:block;margin-bottom:5px}.fee{background:#f4f7fb;border-radius:12px;padding:12px;font-size:13px;line-height:1.7}.money{font-size:22px;font-weight:900}
+
+:root{--b:#5b5bf0;--b2:#8b5cf6;--ink:#1b1f3b;--soft:#f5f6ff}
+body{background:linear-gradient(160deg,#eceeff,#f8f0ff);font-family:"Segoe UI",Heebo,Arial,sans-serif}
+.app{background:#fbfbff;border-radius:0}
+header{background:rgba(255,255,255,.85);backdrop-filter:blur(10px);border:0;box-shadow:0 2px 14px #5b5bf012}
+.logo{background:linear-gradient(90deg,var(--b),var(--b2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero{background:linear-gradient(135deg,var(--b),var(--b2));border-radius:26px;box-shadow:0 12px 28px #5b5bf044}
+.card{border:0;border-radius:22px;background:#fff;box-shadow:0 4px 18px #1b1f3b12;transition:transform .15s}.card:active{transform:scale(.98)}
+.primary{background:linear-gradient(90deg,var(--b),var(--b2));border-radius:16px;box-shadow:0 6px 14px #5b5bf044}
+.tag{background:#eceeff;color:var(--b);border-radius:20px}.chip{border-radius:20px;background:#fff;box-shadow:0 2px 8px #1b1f3b10}.chip.active{background:var(--b)}
+.nav{border-radius:22px 22px 0 0;box-shadow:0 -6px 20px #1b1f3b14;border:0}.nav button.active{color:var(--b)}
+.num{background:var(--b)}.price{color:var(--b)}
+#splash{position:fixed;inset:0;z-index:99;background:linear-gradient(145deg,#5b5bf0,#8b5cf6 60%,#ec6cc6);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;transition:opacity .6s,visibility .6s}
+#splash.hide{opacity:0;visibility:hidden}
+#splash .wave{font-size:76px;display:inline-block;animation:wave 1.4s ease-in-out infinite;transform-origin:70% 70%}
+#splash h1{font-size:34px;margin:14px 0 6px;animation:up .7s .2s both}#splash p{font-size:18px;opacity:.9;margin:0 0 26px;animation:up .7s .5s both}
+#splash button{border:0;background:#fff;color:var(--b);font-weight:900;font-size:17px;padding:14px 34px;border-radius:30px;animation:up .7s .9s both;box-shadow:0 8px 20px #0003}
+@keyframes wave{0%,60%,100%{transform:rotate(0)}10%,30%{transform:rotate(16deg)}20%,40%{transform:rotate(-10deg)}50%{transform:rotate(8deg)}}
+@keyframes up{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.loc{background:#fff;border-radius:22px;padding:14px;margin:0 0 14px;box-shadow:0 4px 18px #1b1f3b12}.loc select{margin:8px 0}.loc .secondary{margin-top:0;border-radius:14px;color:var(--b);border-color:#d9dcff}
+.sec{font-weight:900;font-size:18px;margin:18px 0 4px}.dist{font-size:12px;color:#10924f;font-weight:800}
+.msgs{display:flex;flex-direction:column;gap:2px;min-height:300px}.msg{max-width:80%;padding:9px 13px;border-radius:18px;margin:4px 0;font-size:14px;line-height:1.5}
+.msg.me{align-self:flex-start;background:var(--b);color:#fff}.msg.them{align-self:flex-end;background:#eceeff}.msg.sys{align-self:center;background:#fff6da;font-size:13px;text-align:center;max-width:92%}
+#toast{position:fixed;top:10px;left:50%;transform:translateX(-50%);width:calc(100% - 24px);max-width:400px;background:#1b1f3b;color:#fff;border-radius:18px;padding:13px 15px;z-index:120;display:none;box-shadow:0 10px 26px #0005;font-size:14px;line-height:1.5}
+#toast button{margin-top:8px;border:0;background:#fff;color:var(--b);border-radius:12px;padding:8px 14px;font-weight:800}
+.bdg{background:#e5384b;color:#fff;border-radius:10px;font-size:10px;padding:1px 6px;margin-right:3px}.warn{background:#ffe9e9;color:#b3261e;padding:10px;border-radius:12px;font-size:13px;margin-top:10px}
+#langBtn{position:absolute;top:18px;left:16px;padding:7px 12px;font-size:13px}html[dir=ltr] #langBtn{left:auto;right:16px}
+html[dir=ltr] .msg.me{align-self:flex-end}html[dir=ltr] .msg.them{align-self:flex-start}html[dir=ltr] input,html[dir=ltr] textarea,html[dir=ltr] select{text-align:left}
+</style>
+</head>
+<body>
+<div id="splash" class="hide"><div id="obBox"></div></div>
+<div id="toast"></div>
+<div class="app">
+<header><button id="langBtn" class="chip" onclick="setLang(LANG==='he'?'en':'he')">EN</button><div class="logo">עבודות קטנות</div><div class="sub">משימות קטנות. הזדמנויות גדולות.</div></header>
+<main>
+
+<section id="home" class="screen active">
+<div id="mine"></div><div id="sentLink"></div>
+<div class="hero">
+<h1>מצא משימה שמתאימה לך</h1>
+<p>חשבון אחד לכל משתמש — אפשר לפרסם משימה או לבצע משימות.</p>
+<div style="display:flex;gap:8px;margin-top:14px">
+<button onclick="go('payments')" style="flex:1;border:0;border-radius:12px;padding:11px;background:#fff;color:#172033;font-weight:800">💳 תשלומים</button>
+<button onclick="go('profile')" style="flex:1;border:0;border-radius:12px;padding:11px;background:#fff;color:#172033;font-weight:800">👤 חשבון</button>
+</div>
+</div>
+<div class="loc row"><b id="locTxt">📍 לא נבחר מיקום</b><button class="chip active" onclick="startOnb()">שינוי</button></div>
+<div class="sec">✨ מומלץ לך באזור</div><div id="nearby"></div>
+<div class="sec">כל המשימות</div>
+<div class="chips"><button class="chip active" onclick="filter('all',this)">הכול</button><button class="chip" onclick="filter('study',this)">לימודים</button><button class="chip" onclick="filter('tech',this)">טכנולוגיה</button><button class="chip" onclick="filter('help',this)">עזרה</button></div>
+<div id="tasks">
+<div class="card task" data-type="study"><div class="row"><div><div class="title">עזרה במתמטיקה</div><div class="meta">כיתה ט׳ · פתח תקווה<br>שעה אחת · השבוע</div></div><div class="price">₪70</div></div><span class="tag">לימודים</span><button class="primary" onclick="applyTask('עזרה במתמטיקה',70)">שליחת הצעה</button></div>
+<div class="card task" data-type="tech"><div class="row"><div><div class="title">עזרה בהגדרת אייפון</div><div class="meta">העברת מידע והגדרות בסיסיות<br>ראש העין · כ־45 דקות</div></div><div class="price">₪50</div></div><span class="tag">טכנולוגיה</span><button class="primary" onclick="applyTask('עזרה בהגדרת אייפון',50)">שליחת הצעה</button></div>
+<div class="card task" data-type="help"><div class="row"><div><div class="title">עזרה בהרכבת מדף</div><div class="meta">עבודה פשוטה · מבוגר נוכח בבית<br>פתח תקווה · היום</div></div><div class="price">₪60</div></div><span class="tag">עזרה</span><button class="primary" onclick="applyTask('עזרה בהרכבת מדף',60)">שליחת הצעה</button></div>
+<div class="card task" data-type="help"><div class="row"><div><div class="title">גיזום עצים בגינה</div><div class="meta">נדרשים 2 אנשים · יום ו׳<br>רמת גן · כשעתיים</div></div><div class="price">₪60</div></div><span class="tag">עזרה</span> <span class="tag" style="background:#ffe9e9;color:#b3261e">18+</span><button class="primary" onclick="applyTask('גיזום עצים בגינה',60,18)">שליחת הצעה</button></div>
+</div>
+</section>
+
+<section id="signup" class="screen">
+<h2>יצירת חשבון</h2>
+<div class="notice">אותו חשבון משמש גם לפרסום וגם לביצוע משימות. בחשבון של קטין יידרש אישור הורה לפני פעילות ותשלומים.</div>
+<label>שם מלא</label><input id="name" placeholder="שם מלא">
+<label>טלפון</label><input id="phone" placeholder="05X-XXXXXXX">
+<label>תאריך לידה</label><input id="birth" type="date">
+<label>אני רוצה להשתמש ב...</label>
+<select id="mode"><option>גם לפרסם וגם לבצע</option><option>בעיקר לפרסם</option><option>בעיקר לבצע</option></select>
+<button class="primary" onclick="createAccount()">יצירת חשבון</button>
+</section>
+
+<section id="apply" class="screen">
+<button class="back" onclick="go('home')">← חזרה</button><h2>שליחת הצעה</h2><div id="applyInfo" class="card"></div>
+<div class="notice">המפרסם יראה את השם שלך, מאיפה אתה, המחיר שהצעת ומתי אתה פנוי. פרטי קשר יתגלו רק אחרי אישור.</div>
+<label>המחיר שלי (אפשר להציע יותר מהמחיר המוצע)</label><input id="oPrice" type="number" placeholder="₪">
+<label>הגיל שלי</label><input id="oAge" type="number" step="0.5" placeholder="למשל 16.5">
+<label>מאיפה אתה?</label><input id="oFrom" placeholder="עיר">
+<label>מתי אתה יכול?</label><input id="oWhen" placeholder="למשל: מחר אחרי 17:00">
+<label>הודעה</label><textarea rows="4" placeholder="למה אתה מתאים למשימה?"></textarea>
+<button class="primary" onclick="sendOffer()">שלח הצעה</button>
+</section>
+
+<section id="post" class="screen">
+<h2>פרסום משימה</h2>
+<div class="notice" id="feeNote"></div>
+<label>מה צריך לעשות?</label><input id="job" placeholder="לדוגמה: עזרה במתמטיקה">
+<label>תחום</label><select id="category"><option>לימודים</option><option>טכנולוגיה</option><option>עזרה בבית</option><option>חיות מחמד</option><option>אחר</option></select>
+<label>עיר</label><input id="city" placeholder="לדוגמה: פתח תקווה">
+<label>מחיר לאדם אחד</label><input id="budget" type="number" placeholder="₪" oninput="calcFees()">
+<div class="fee" id="feeBox">הכנס מחיר כדי לראות את העמלות.</div>
+<label>תאריך (היום יוצג אוטומטית)</label><input id="pDate" type="date">
+<label>כמה זמן המשימה לוקחת?</label><select id="pDur"><option>חצי שעה</option><option selected>שעה</option><option>שעה וחצי</option><option>שעתיים</option><option>3 שעות</option><option>חצי יום</option><option>יום שלם</option></select>
+<label>כמה אנשים דרושים?</label><input id="pPpl" oninput="calcFees()" type="number" min="1" value="1">
+<label>גיל מינימלי למבצע</label><select id="pAge"><option value="0">ללא הגבלה</option><option value="14">14+</option><option value="16">16+</option><option value="18">18+</option></select>
+<label>פרטים</label><textarea rows="4" placeholder="מה בדיוק צריך ומה משך המשימה?"></textarea>
+<button class="primary" onclick="postJob()">פרסום משימה</button>
+</section>
+
+<section id="payments" class="screen">
+<h2>תשלומים</h2>
+<div class="notice"><b>אבטחה:</b> בגרסה אמיתית לא נשמור מספר חשבון, כרטיס או סיסמת בנק בשרת שלנו. החיבור יעבור דרך ספק תשלומים מאושר עם טוקן מאובטח.</div>
+<div class="paybox"><b>💳 חשבון בנק</b><div class="meta">חיבור לחשבון בנק לצורך קבלת תשלומים.</div><button class="secondary" onclick="connectPayment('בנק')">חיבור מאובטח</button></div>
+<div class="paybox"><b>📱 Bit</b><div class="meta">קבלת תשלום דרך ספק תשלומים תומך.</div><button class="secondary" onclick="connectPayment('Bit')">חיבור Bit</button></div>
+<div class="paybox"><b>💙 PayBox</b><div class="meta">קבלת תשלום דרך ספק תשלומים תומך.</div><button class="secondary" onclick="connectPayment('PayBox')">חיבור PayBox</button></div>
+<div class="small">האפשרות הסופית תלויה בספק התשלומים, בגיל המשתמש ובדרישות החוק והבנקים.</div>
+</section>
+
+<section id="profile" class="screen">
+<h2>החשבון שלי</h2><button class="secondary" onclick="go('signup')">➕ יצירת/עריכת חשבון</button>
+<div class="card"><div class="row"><div><div class="title" id="profileName">חשבון הדגמה</div><div class="meta" id="profileMode">משתמש</div></div><span class="tag">חשבון אחד</span></div></div>
+<div class="card"><div class="title">📲 הורדה לטלפון</div><div class="meta"><b>אייפון (Safari):</b> כפתור השיתוף ← "הוסף למסך הבית".<br><b>אנדרואיד (Chrome):</b> תפריט ⋮ ← "הוספה למסך הבית".<br>האפליקציה תופיע עם האייקון והשם “עבודות קטנות”.</div></div>
+<div class="card"><div class="title">אימות הורה</div><div class="meta">למשתמש קטין נדרש אישור הורה לפני פעילות ותשלומים.</div><button class="primary" onclick="alert('בגרסה הבאה: תהליך אימות הורה מאובטח')">התחלת אימות</button></div>
+<div class="card"><div class="title">תשלומים</div><div class="meta">חיבור אמצעי קבלת כסף והיסטוריית תשלומים.</div><button class="primary" onclick="go('payments')">ניהול תשלומים</button></div>
+</section>
+
+<section id="how" class="screen">
+<h2>איך המודל עובד?</h2>
+<div class="step"><div class="num">1</div><div><b>מפרסמים</b><div class="small">הורה/משתמש מפרסם משימה במחיר שנקבע.</div></div></div>
+<div class="step"><div class="num">2</div><div><b><span class="fp"></span> עמלת פרסום</b><div class="small">מחיר העבודה × <span class="fp"></span> נגבה בעת פרסום.</div></div></div>
+<div class="step"><div class="num">3</div><div><b>נמצאה התאמה</b><div class="small">מבצע לוקח את המשימה והעסקה מאושרת.</div></div></div>
+<div class="step"><div class="num">4</div><div><b>עוד <span class="fc"></span></b><div class="small">מחיר העבודה × <span class="fc"></span> נגבה עם סגירת העסקה.</div></div></div>
+<div class="fee"><b>סה״כ עמלה לאפליקציה: <span class="ft"></span></b><br>לדוגמה: עבודה ב־₪50 → ₪<span id="ex1"></span> בפרסום + ₪<span id="ex2"></span> בסגירה = ₪<span id="ex3"></span>.<br><br><span id="tierLines"></span></div>
+<div class="notice">חשוב: תשלומים אמיתיים לקטינים דורשים בדיקה משפטית, תנאי שימוש, הסכמת הורה וספק תשלומים שתומך במבנה הזה.</div>
+</section>
+
+<section id="myoffers" class="screen"><button class="back" onclick="go('home')">← חזרה</button><h2>ההצעות ששלחתי</h2><div id="sentOk" class="success">ההצעה נשלחה! ✓ נעדכן אותך ונפתח צ'אט ברגע שהמפרסם יאשר.</div><div id="sentBox"></div></section>
+<section id="chats" class="screen"><h2>צ'אטים</h2><div id="chatList"></div></section>
+<section id="chat" class="screen"><button class="back" onclick="go('chats');renderChatList()">← חזרה</button><div id="chatHead" class="card"></div><div id="chatMsgs" class="msgs"></div>
+<div style="display:flex;gap:8px;margin-top:12px"><input id="chatIn" placeholder="כתוב הודעה…" style="margin:0" onkeydown="if(event.key==='Enter')sendMsg()"><button class="primary" style="width:80px;margin:0" onclick="sendMsg()">שלח</button></div></section>
+<section id="offers" class="screen">
+<button class="back" onclick="go('home')">← חזרה</button><h2>הצעות למשימה</h2><div id="offersBox"></div>
+<button class="secondary" onclick="toggleSelf()">➕ הגש הצעה בעצמי (בדיקה)</button>
+<div id="selfForm" style="display:none;margin-top:10px"><label>שם</label><input id="sN"><label>גיל</label><input id="sA" type="number" step="0.5"><label>עיר</label><input id="sC"><label>מחיר</label><input id="sP" type="number"><label>מתי פנוי</label><input id="sW"><button class="primary" onclick="addSelf()">שלח הצעה</button></div>
+</section>
+</main>
+<div class="nav">
+<button class="active" onclick="go('home',this)">🏠<br>משימות</button>
+<button onclick="go('post',this)">➕<br>פרסום</button>
+<button onclick="go('payments',this)">💳<br>תשלומים</button>
+<button onclick="go('chats',this);renderChatList()">💬<br>צ'אטים<span id="chatBadge" class="bdg" style="display:none"></span></button>
+<button onclick="go('profile',this)">👤<br>חשבון</button>
+</div>
+</div>
+
+<script>
+function go(id,btn){
+document.querySelectorAll('.screen').forEach(x=>x.classList.remove('active'));
+const target=document.getElementById(id);
+if(target) target.classList.add('active');
+document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));
+if(btn) btn.classList.add('active');
+else if(id==='home') document.querySelector('.nav button:nth-child(1)').classList.add('active');
+else if(id==='post') document.querySelector('.nav button:nth-child(2)').classList.add('active');
+else if(id==='payments') document.querySelector('.nav button:nth-child(3)').classList.add('active');
+else if(id==='chats'||id==='chat') document.querySelector('.nav button:nth-child(4)').classList.add('active');
+else if(id==='profile') document.querySelector('.nav button:nth-child(5)').classList.add('active');
+window.scrollTo(0,0)
+}
+function filter(type,btn){document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.task').forEach(x=>x.style.display=(type==='all'||x.dataset.type===type)?'block':'none')}
+function createAccount(){let n=document.getElementById('name').value.trim()||'משתמש חדש';user.name=n;{const bv=document.getElementById('birth').value;if(bv)user.age=Math.floor((Date.now()-new Date(bv))/31557600000*2)/2}document.getElementById('profileName').textContent=n;document.getElementById('profileMode').textContent=document.getElementById('mode').value;go('home');startOnb()}
+function applyTask(name,price,minAge){curTask={name,price,minAge:minAge||0};document.getElementById('applyInfo').innerHTML='<div class="title">'+name+'</div><div class="meta">המחיר המוצע: ₪'+price+(minAge?'<br>גיל מינימלי: '+minAge+'+':'')+'<br>עמלה כוללת של '+pct(feeOf(price).rp+feeOf(price).rc)+' נגבית מהמפרסם.</div>';oPrice.value=price;oAge.value=user.age||'';oFrom.value=user.city||'';oWhen.value='';go('apply')}
+function sendOffer(){const a=Number(oAge.value);if(!a||!oWhen.value.trim()||!oFrom.value.trim()){alert('נא למלא גיל, מאיפה אתה ומתי אתה פנוי.');return}
+if(curTask.minAge&&a<curTask.minAge){alert('המשימה הזאת מיועדת לגיל '+curTask.minAge+' ומעלה.');return}
+const o={task:curTask.name,price:Number(oPrice.value)||curTask.price,age:a,from:oFrom.value.trim(),when:oWhen.value.trim(),st:'pending'};sent.unshift(o);
+setTimeout(()=>{if(o.st!=='pending')return;o.st='approved';const c={n:'מפרסם המשימה',task:o.task,u:1,m:[{f:'sys',t:'🎉 המפרסם אישר את ההצעה שלך למשימה “'+o.task+'”. מעכשיו אפשר להתכתב כאן.'}]};chats.push(c);o.chat=chats.length-1;
+setTimeout(()=>{c.m.push({f:'them',t:'היי, תודה שהצעת! מתי אתה פנוי להתחיל?'});if(curChat!==o.chat)c.u++;badge();if(curChat===o.chat)renderChat()},2500);
+toast('ההצעה שלך ל“'+o.task+'” אושרה 🎉',o.chat);badge();renderSent()},6000);
+renderSent();openSent(true)}
+function calcFees(){let p=Number(budget.value)||0,f=feeOf(p),n=Math.max(1,Number(pPpl.value)||1);
+feeBox.innerHTML=p?'מחיר לאדם: ₪'+p+(n>1?' · '+n+' אנשים (סה״כ ₪'+p*n+')':'')+'<br>בפרסום ('+pct(f.rp)+'): <b>₪'+f.post.toFixed(2)+'</b><br>בסגירה ('+pct(f.rc)+'): <b>₪'+f.close.toFixed(2)+'</b><br><b>סה״כ: ₪'+rnd(f.post+f.close).toFixed(2)+' ('+pct(f.rp+f.rc)+')</b>'+(n>1?'<br><span class="small">העמלה נגבית על אדם אחד בלבד.</span>':''):'הכנס מחיר כדי לראות את העמלות.'}
+function postJob(){let t=job.value.trim(),p=Number(budget.value)||0;if(!t||!p){alert('נא למלא מה צריך לעשות ומחיר.');return}
+const post={t:t,c:city.value.trim()||user.city||'',p:p,d:pDate.value,dur:pDur.value,ppl:Math.max(1,Number(pPpl.value)||1),offers:[],acc:0,min:Number(pAge.value)||0};myPosts.unshift(post);
+[5000,11000].forEach(ms=>setTimeout(()=>{const f=FAKE[post.offers.length%FAKE.length];post.offers.push({n:f[0],c:f[1],p:post.p+f[2],when:f[3],msg:f[4],a:f[5],ok:false});renderMine();if(curPost===post)renderOffers()},ms));
+job.value='';budget.value='';city.value='';pDate.value='';pPpl.value=1;pAge.value=0;calcFees();renderMine();go('home')}
+function connectPayment(x){alert('חיבור '+x+' יסופק בגרסה אמיתית באמצעות ספק תשלומים מאובטח. אין להזין כאן פרטי בנק אמיתיים.')}
+
+// ===== הגדרות עמלה: משנים רק כאן =====
+// עמלות לפי מחיר לאדם אחד (מסננים מלמעלה למטה). משנים רק כאן:
+const TIERS=[{min:100,post:0.02,close:0.03},{min:0,post:0.04,close:0.06}];
+const FEE_POST=TIERS[1].post, FEE_CLOSE=TIERS[1].close;
+const rnd=x=>Math.round(x*100)/100;
+const feeOf=p=>{const t=TIERS.find(t=>p>=t.min);return{rp:t.post,rc:t.close,post:rnd(p*t.post),close:rnd(p*t.close)}};
+const tierTxt=()=>'עד ₪'+(TIERS[0].min-1)+' לאדם: '+pct(TIERS[1].post)+' בפרסום + '+pct(TIERS[1].close)+' בסגירה (סה״כ '+pct(TIERS[1].post+TIERS[1].close)+')<br>₪'+TIERS[0].min+' ומעלה לאדם: '+pct(TIERS[0].post)+' + '+pct(TIERS[0].close)+' (סה״כ '+pct(TIERS[0].post+TIERS[0].close)+')<br>העמלה נגבית על אדם אחד בלבד, גם אם דרושים כמה אנשים.';
+const pct=x=>Math.round(x*1000)/10+'%';
+const esc=t=>String(t).replace(/[<>&"]/g,'');
+const REG={'צפון':{'חיפה':[32.794,34.99],'עכו':[32.928,35.083],'נהריה':[33.006,35.094],'קריית שמונה':[33.208,35.571],'טבריה':[32.795,35.531],'נצרת':[32.699,35.304],'עפולה':[32.607,35.289],'כרמיאל':[32.919,35.296],'צפת':[32.964,35.496]},
+'מרכז':{'פתח תקווה':[32.087,34.887],'ראש העין':[32.095,34.957],'תל אביב':[32.085,34.781],'רמת גן':[32.068,34.824],'ירושלים':[31.768,35.214],'רחובות':[31.894,34.811],'נתניה':[32.332,34.856],'הרצליה':[32.166,34.844],'ראשון לציון':[31.973,34.789],'מודיעין':[31.898,35.01]},
+'דרום':{'באר שבע':[31.253,34.791],'אשדוד':[31.804,34.655],'אשקלון':[31.669,34.571],'אילת':[29.558,34.948],'דימונה':[31.07,35.033],'קריית גת':[31.61,34.764],'שדרות':[31.525,34.596],'נתיבות':[31.42,34.589],'ערד':[31.259,35.213]}};
+const CITIES=Object.assign({},REG['צפון'],REG['מרכז'],REG['דרום']);
+const CEN={'צפון':[32.8,35.2],'מרכז':[32.0,34.85],'דרום':[31.3,34.8]};
+const JOBS=[['עזרה במתמטיקה','פתח תקווה',70,'📘'],['הדרכה על וואטסאפ לסבתא','רמת גן',40,'📱'],['הרכבת מדף','פתח תקווה',60,'🛠️'],['הגדרת אייפון','ראש העין',50,'📲'],['הליכה עם כלב','תל אביב',45,'🐕'],['שיעור אנגלית','נתניה',80,'🔤'],['עזרה במעבר דירה','ירושלים',120,'📦',18],['תיקון מחשב','חיפה',90,'💻',16],['עזרה בגינה','נהריה',65,'🌿',18],['שיעור פיזיקה','טבריה',75,'📘'],['שמירה על חתול','באר שבע',55,'🐈'],['הגדרת מחשב','אשדוד',60,'💻'],['עזרה בקניות','ערד',40,'🛒'],['צביעת חדר','אילת',150,'🎨',18]];
+const user={name:'',region:'',city:''}, myPosts=[];
+const km=(a,b)=>{const r=Math.PI/180,dx=(b[1]-a[1])*r*Math.cos((a[0]+b[0])*r/2),dy=(b[0]-a[0])*r;return 6371*Math.hypot(dx,dy)};
+const here=()=>CITIES[user.city]||CEN[user.region]||null;
+function renderNearby(){
+const box=document.getElementById('nearby'),h=here();
+document.getElementById('locTxt').textContent=user.city?'📍 '+user.city+(CITIES[user.city]?'':' ('+user.region+')'):'📍 לא נבחר מיקום';
+if(!h){box.innerHTML='<div class="card"><div class="meta">אחרי יצירת חשבון תבחר אזור ועיר, ונציג משימות קרובות אליך.</div></div>';return}
+box.innerHTML=JOBS.map(j=>({j,d:km(h,CITIES[j[1]])})).sort((a,b)=>a.d-b.d).slice(0,3).map(({j,d})=>'<div class="card"><div class="row"><div><div class="title">'+j[3]+' '+j[0]+'</div><div class="meta">'+j[1]+'</div><div class="dist">'+(j[4]?'<span class="tag" style="margin:0 0 4px;background:#ffe9e9;color:#b3261e">'+j[4]+'+</span> ':'')+(d<3?'באזור שלך':'~'+Math.round(d)+' ק״מ ממך')+'</div></div><div class="price">₪'+j[2]+'</div></div><button class="primary" onclick="applyTask(\''+j[0]+'\','+j[2]+','+(j[4]||0)+')">שליחת הצעה</button></div>').join('')}
+const FAKE=[['דנה כהן','פתח תקווה',0,'היום אחרי 18:00','יש לי ניסיון, אשמח לעזור 🙂',16.5],['יוסי לוי','ראש העין',15,'מחר בבוקר','אפשר להגיע עם הכלים שלי',19],['נועה בן־דוד','תל אביב',10,'יום שלישי אחר הצהריים','זמינה גם בשעות גמישות',17],['אורי מזרחי','רמת גן',0,'סוף השבוע','',21]];
+let curPost=null,curTask=null;
+const dayStr=d=>d?new Date(d+'T00:00').toLocaleDateString((LANG==='en'?'en-GB':'he-IL'),{weekday:'long',day:'numeric',month:'numeric'}):'ללא תאריך';
+const offTxt=n=>n===0?'ממתין להצעות':n===1?'הצעה אחת':n+' הצעות';
+function renderMine(){
+const m=document.getElementById('mine');
+if(!myPosts.length){m.innerHTML='';return}
+m.innerHTML='<div class="sec" style="margin-top:0">📌 המשימות שפרסמתי</div>'+myPosts.map((x,i)=>{const n=x.offers.length;return '<div class="card"><div class="row"><div><div class="title">'+esc(x.t)+'</div><div class="meta">'+esc(x.c)+'<br>'+dayStr(x.d)+' · '+x.dur+' · דרושים '+x.ppl+(x.min?' · גיל '+x.min+'+':'')+'</div></div><div class="price">₪'+x.p+'</div></div><span class="tag" style="'+(n?'background:#e6f8ee;color:#12803f;font-weight:800':'')+'">'+offTxt(n)+'</span>'+(n?'<button class="secondary" onclick="openOffers('+i+')">צפייה בהצעות 👀</button>':'')+'<button class="secondary danger" onclick="cancelPost('+i+')">ביטול משימה</button></div>'}).join('')}
+function openOffers(i){curPost=myPosts[i];renderOffers();go('offers')}
+const ageTxt=a=>Number.isInteger(a)?a:Math.floor(a)+' וחצי';
+function renderOffers(){
+const x=curPost;if(!x)return;
+offersBox.innerHTML='<div class="card"><div class="title">'+esc(x.t)+'</div><div class="meta">'+dayStr(x.d)+' · '+x.dur+(x.min?' · גיל '+x.min+'+':'')+'<br>דרושים '+x.ppl+' · אושרו '+x.acc+' מתוך '+x.ppl+'</div></div>'+x.offers.map((o,k)=>{const young=x.min&&o.a<x.min;return '<div class="card"><div class="row"><div><div class="title">👤 '+esc(o.n)+', '+ageTxt(o.a)+'</div><div class="meta">📍 מ'+esc(o.c)+'<br>🕒 פנוי: '+esc(o.when)+(o.msg?'<br>“'+esc(o.msg)+'”':'')+'</div></div><div class="price">₪'+o.p+'</div></div>'+(o.p>x.p?'<div class="notice" style="margin:10px 0 0">מבקש ₪'+(o.p-x.p)+' יותר מהמחיר שלך (₪'+x.p+')</div>':'')+(young?'<div class="warn">⚠️ מתחת לגיל המינימלי ('+x.min+'+) — אי אפשר לאשר</div>':'<button class="primary" '+(o.ok?'style="background:#12803f"':'')+' onclick="acceptOffer('+k+')">'+(o.ok?'✓ אושר · פתח צ\'אט':'אישור הצעה')+'</button>'+(o.ok?'<button class="secondary danger" onclick="cancelApprove('+k+')">ביטול אישור</button>':''))+'</div>'}).join('')}
+function toggleSelf(){const f=document.getElementById('selfForm');f.style.display=f.style.display==='none'?'block':'none'}
+function addSelf(){const n=sN.value.trim(),a=Number(sA.value),pr=Number(sP.value);if(!n||!a||!pr||!curPost){alert('נא למלא שם, גיל ומחיר.');return}
+curPost.offers.push({n:n,c:sC.value.trim()||'—',p:pr,when:sW.value.trim()||'—',msg:'',a:a,ok:false});sN.value=sA.value=sC.value=sP.value=sW.value='';toggleSelf();renderOffers();renderMine()}
+const chats=[];let curChat=-1,tt;
+function badge(){const u=chats.reduce((n,c)=>n+c.u,0),b=document.getElementById('chatBadge');b.style.display=u?'inline':'none';b.textContent=u}
+function toast(msg,i){const t=document.getElementById('toast');t.innerHTML='🔔 '+msg+'<br><button onclick="openChat('+i+')">פתח צ\'אט</button>';t.style.display='block';clearTimeout(tt);tt=setTimeout(()=>t.style.display='none',7000)}
+const sent=[];
+const stTxt={pending:'⏳ ממתין לאישור',approved:'✅ אושרה',cancelled:'🚫 בוטלה'};
+function openSent(fresh){sentOk.style.display=fresh?'block':'none';renderSent();go('myoffers')}
+function renderSent(){
+sentLink.innerHTML=sent.length?'<div class="card" onclick="openSent(false)"><div class="row"><b>📤 ההצעות ששלחתי ('+sent.length+')</b><span class="tag" style="margin:0">צפייה</span></div></div>':'';
+sentBox.innerHTML=sent.map((o,i)=>'<div class="card"><div class="row"><div><div class="title">'+esc(o.task)+'</div><div class="meta">גיל '+ageTxt(o.age)+' · '+esc(o.from)+'<br>פנוי: '+esc(o.when)+'</div></div><div class="price">₪'+o.price+'</div></div><span class="tag" style="'+(o.st==='approved'?'background:#e6f8ee;color:#12803f':o.st==='cancelled'?'background:#ffe9e9;color:#b3261e':'')+'">'+stTxt[o.st]+'</span>'+(o.st==='approved'&&o.chat!==undefined?'<button class="primary" onclick="openChat('+o.chat+')">💬 פתח צ\'אט</button>':'')+(o.st!=='cancelled'?'<button class="secondary danger" onclick="cancelSent('+i+')">ביטול הצעה</button>':'')+'</div>').join('')}
+function cancelSent(i){const o=sent[i];if(!confirm('לבטל את ההצעה?'))return;o.st='cancelled';if(o.chat!==undefined){chats[o.chat].m.push({f:'sys',t:'ההצעה בוטלה על ידי מי שהגיש אותה'})}renderSent()}
+function cancelApprove(k){const x=curPost,o=x.offers[k];if(!confirm('לבטל את האישור של '+o.n+'?'))return;o.ok=false;x.acc--;if(o.chat!==undefined){chats[o.chat].m.push({f:'sys',t:'האישור בוטל על ידי המפרסם'});chats[o.chat].u++;badge()}renderOffers()}
+function cancelPost(i){if(!confirm('לבטל את המשימה?'))return;myPosts[i].offers.forEach(o=>{if(o.chat!==undefined)chats[o.chat].m.push({f:'sys',t:'המשימה בוטלה על ידי המפרסם'})});myPosts.splice(i,1);renderMine()}
+function acceptOffer(k){const x=curPost,o=x.offers[k];
+if(o.ok){openChat(o.chat);return}
+if(x.acc>=x.ppl){alert('כבר אושרו כל האנשים שדרושים.');return}
+o.ok=true;x.acc++;
+if(o.chat!==undefined){const c=chats[o.chat];c.m.push({f:'sys',t:'ההצעה אושרה שוב 🎉'});c.u++;toast('ההצעה של '+o.n+' אושרה שוב',o.chat);badge();renderOffers();return}
+const me=user.name||'המפרסם';
+const c={n:o.n,task:x.t,u:1,m:[{f:'sys',t:'שלום '+o.n+'! '+me+' פרסם/ה את המשימה “'+x.t+'” ואישר/ה את ההצעה שלך 🎉 מעכשיו אפשר להתכתב כאן.'},{f:'sys',t:'🔔 נשלחה התראה גם ל'+o.n}]};
+chats.push(c);o.chat=chats.length-1;
+setTimeout(()=>{c.m.push({f:'them',t:'היי! תודה שאישרת 🙏 מתי נוח להתחיל?'});if(curChat!==o.chat)c.u++;badge();if(curChat===o.chat)renderChat()},3000);
+toast('ההצעה של '+o.n+' אושרה ונפתח צ\'אט',o.chat);badge();renderOffers()}
+function renderChatList(){chatList.innerHTML=chats.length?chats.map((c,i)=>'<div class="card" onclick="openChat('+i+')"><div class="row"><div><div class="title">💬 '+esc(c.n)+'</div><div class="meta">'+esc(c.task)+'<br>'+esc(c.m[c.m.length-1].t).slice(0,50)+'…</div></div>'+(c.u?'<span class="bdg">'+c.u+'</span>':'')+'</div></div>').join(''):'<div class="card"><div class="meta">אין צ\'אטים עדיין. צ\'אט נפתח אחרי אישור הצעה.</div></div>'}
+function renderChat(){const c=chats[curChat];chatHead.innerHTML='<div class="title">'+esc(c.n)+'</div><div class="meta">'+esc(c.task)+'</div>';chatMsgs.innerHTML=c.m.map(m=>'<div class="msg '+m.f+'">'+esc(m.t)+'</div>').join('')}
+function openChat(i){curChat=i;chats[i].u=0;document.getElementById('toast').style.display='none';renderChat();badge();go('chat')}
+function sendMsg(){const v=chatIn.value.trim();if(!v)return;chats[curChat].m.push({f:'me',t:v});chatIn.value='';renderChat()}
+function startOnb(){document.getElementById('splash').classList.remove('hide');
+obBox.innerHTML='<div class="wave">👋</div><h1>שלום '+esc(user.name||'')+', ברוך הבא!</h1><p>מה המיקום שלך?</p><div style="display:flex;flex-direction:column;gap:10px;align-items:center">'+['צפון','מרכז','דרום'].map(r=>'<button style="width:200px" onclick="pickRegion(\''+r+'\')">'+r+'</button>').join('')+'</div><button onclick="closeSplash()" style="background:none;color:#fff;box-shadow:none;font-size:14px;margin-top:14px">דלג</button>'}
+function pickRegion(r){user.region=r;
+obBox.innerHTML='<h1>באיזו עיר ב'+r+'?</h1><p>אפשר להקליד גם יישוב קטן, נחשב מרחק לפי האזור.</p><input id="obCity" list="dl" placeholder="שם העיר" style="max-width:300px;text-align:center;border:0"><datalist id="dl">'+Object.keys(REG[r]).map(c=>'<option value="'+c+'">').join('')+'</datalist><div id="obMsg" class="small" style="color:#fff;min-height:18px"></div><div style="display:flex;flex-direction:column;gap:10px;align-items:center"><button onclick="finishOnb()">המשך</button><button onclick="useGeo()" style="background:none;color:#fff;box-shadow:none;font-size:14px">🎯 זהה אוטומטית</button></div>'}
+function finishOnb(){const c=obCity.value.trim();if(!c){obMsg.textContent='נא להקליד עיר';return}user.city=c;closeSplash();renderNearby()}
+function useGeo(){
+if(!navigator.geolocation){obMsg.textContent='אין תמיכה באיתור. הקלד עיר.';return}
+obMsg.textContent='מאתר…';
+navigator.geolocation.getCurrentPosition(pos=>{const me=[pos.coords.latitude,pos.coords.longitude];
+const best=Object.keys(CITIES).sort((a,b)=>km(me,CITIES[a])-km(me,CITIES[b]))[0];obCity.value=best;obMsg.textContent='זוהה: '+best+' ✓'},()=>{obMsg.textContent='אין הרשאת מיקום. הקלד עיר.'},{timeout:8000})}
+function closeSplash(){document.getElementById('splash').classList.add('hide')}
+(function init(){
+document.querySelectorAll('.fp').forEach(e=>e.textContent=pct(FEE_POST));
+document.querySelectorAll('.fc').forEach(e=>e.textContent=pct(FEE_CLOSE));
+document.querySelectorAll('.ft').forEach(e=>e.textContent=pct(FEE_POST+FEE_CLOSE));
+ex1.textContent=rnd(50*FEE_POST);ex2.textContent=rnd(50*FEE_CLOSE);ex3.textContent=rnd(50*(FEE_POST+FEE_CLOSE));feeNote.innerHTML=tierTxt();tierLines.innerHTML=tierTxt();
+renderNearby()})();
+const DICT=`משימות קטנות. הזדמנויות גדולות.|Small tasks. Big opportunities.
+=משימות|Tasks
+=פרסום|Post
+=תשלומים|Payments
+=חשבון|Account
+=צ'אטים|Chats
+מצא משימה שמתאימה לך|Find a task that suits you
+חשבון אחד לכל משתמש — אפשר לפרסם משימה או לבצע משימות.|One account per user — post tasks or do tasks.
+💳 תשלומים|💳 Payments
+👤 חשבון|👤 Account
+📍 לא נבחר מיקום|📍 No location selected
+=שינוי|Change
+✨ מומלץ לך באזור|✨ Recommended near you
+כל המשימות|All tasks
+=הכול|All
+=לימודים|Study
+=טכנולוגיה|Tech
+=עזרה|Help
+שליחת הצעה|Send offer
+עזרה במתמטיקה|Math help
+כיתה ט׳ · פתח תקווה|9th grade · Petah Tikva
+שעה אחת · השבוע|1 hour · this week
+עזרה בהגדרת אייפון|iPhone setup help
+העברת מידע והגדרות בסיסיות|Data transfer and basic setup
+ראש העין · כ־45 דקות|Rosh HaAyin · ~45 min
+עזרה בהרכבת מדף|Shelf assembly help
+עבודה פשוטה · מבוגר נוכח בבית|Simple job · adult at home
+פתח תקווה · היום|Petah Tikva · today
+גיזום עצים בגינה|Garden tree trimming
+נדרשים 2 אנשים · יום ו׳|2 people needed · Friday
+רמת גן · כשעתיים|Ramat Gan · ~2 hours
+פתח תקווה|Petah Tikva
+ראש העין|Rosh HaAyin
+תל אביב|Tel Aviv
+רמת גן|Ramat Gan
+ירושלים|Jerusalem
+חיפה|Haifa
+באר שבע|Beer Sheva
+נתניה|Netanya
+הרצליה|Herzliya
+ראשון לציון|Rishon LeZion
+מודיעין|Modiin
+רחובות|Rehovot
+אשדוד|Ashdod
+אשקלון|Ashkelon
+אילת|Eilat
+נהריה|Nahariya
+טבריה|Tiberias
+ערד|Arad
+הדרכה על וואטסאפ לסבתא|WhatsApp lesson for grandma
+הרכבת מדף|Shelf assembly
+הגדרת אייפון|iPhone setup
+הליכה עם כלב|Dog walking
+שיעור אנגלית|English lesson
+עזרה במעבר דירה|Moving help
+תיקון מחשב|Computer repair
+עזרה בגינה|Garden help
+שיעור פיזיקה|Physics lesson
+שמירה על חתול|Cat sitting
+הגדרת מחשב|Computer setup
+עזרה בקניות|Shopping help
+צביעת חדר|Room painting
+באזור שלך|In your area
+ק״מ ממך|km away
+יצירת חשבון|Create account
+אותו חשבון משמש גם לפרסום וגם לביצוע משימות. בחשבון של קטין יידרש אישור הורה לפני פעילות ותשלומים.|One account is used for both posting and doing tasks. A minor's account requires parent approval before activity and payments.
+שם מלא|Full name
+=טלפון|Phone
+תאריך לידה|Date of birth
+אני רוצה להשתמש ב...|I want to use the app to...
+גם לפרסם וגם לבצע|Both post and do
+בעיקר לפרסם|Mostly post
+בעיקר לבצע|Mostly do
+← חזרה|← Back
+המפרסם יראה את השם שלך, מאיפה אתה, המחיר שהצעת ומתי אתה פנוי. פרטי קשר יתגלו רק אחרי אישור.|The poster will see your name, where you're from, your offered price and when you're available. Contact details are revealed only after approval.
+המחיר שלי (אפשר להציע יותר מהמחיר המוצע)|My price (you may offer more than suggested)
+הגיל שלי|My age
+מאיפה אתה?|Where are you from?
+מתי אתה יכול?|When are you available?
+=הודעה|Message
+למה אתה מתאים למשימה?|Why are you a good fit?
+שלח הצעה|Send offer
+למשל 16.5|e.g. 16.5
+=עיר|City
+למשל: מחר אחרי 17:00|e.g. tomorrow after 5pm
+המחיר המוצע: |Suggested price: 
+גיל מינימלי: |Minimum age: 
+עמלה כוללת של |Total fee of 
+נגבית מהמפרסם.|is charged to the poster.
+פרסום משימה|Post a task
+עמלת פרסום ועמלת סגירה לפי מחיר לאדם:|Posting and closing fees by price per person:
+עד ₪|Up to ₪
+לאדם: |per person: 
+בפרסום|at posting
+בסגירה|at closing
+ומעלה לאדם|and up per person
+סה״כ|total
+העמלה נגבית על אדם אחד בלבד, גם אם דרושים כמה אנשים.|The fee is charged for one person only, even if several people are needed.
+העמלה נגבית על אדם אחד בלבד.|The fee is charged for one person only.
+מה צריך לעשות?|What needs to be done?
+לדוגמה: עזרה במתמטיקה|e.g. math help
+=תחום|Category
+עזרה בבית|Help at home
+חיות מחמד|Pets
+=אחר|Other
+לדוגמה: פתח תקווה|e.g. Petah Tikva
+מחיר לאדם אחד|Price per person
+מחיר לאדם: |Price per person: 
+הכנס מחיר כדי לראות את העמלות.|Enter a price to see the fees.
+תאריך (היום יוצג אוטומטית)|Date (weekday shown automatically)
+כמה זמן המשימה לוקחת?|How long does the task take?
+חצי שעה|30 minutes
+שעה וחצי|1.5 hours
+=שעה|1 hour
+שעתיים|2 hours
+3 שעות|3 hours
+חצי יום|Half a day
+יום שלם|Full day
+כמה אנשים דרושים?|How many people are needed?
+גיל מינימלי למבצע|Minimum age for the doer
+ללא הגבלה|No limit
+=פרטים|Details
+מה בדיוק צריך ומה משך המשימה?|What exactly is needed and how long will it take?
+בגרסה אמיתית לא נשמור מספר חשבון, כרטיס או סיסמת בנק בשרת שלנו. החיבור יעבור דרך ספק תשלומים מאושר עם טוקן מאובטח.|In the real version we will not store account numbers, cards or bank passwords on our servers. Connection goes through an approved payment provider with a secure token.
+אבטחה:|Security:
+חשבון בנק|Bank account
+חיבור לחשבון בנק לצורך קבלת תשלומים.|Connect a bank account to receive payments.
+חיבור מאובטח|Secure connection
+קבלת תשלום דרך ספק תשלומים תומך.|Receive payment through a supported payment provider.
+חיבור|Connect
+האפשרות הסופית תלויה בספק התשלומים, בגיל המשתמש ובדרישות החוק והבנקים.|The final option depends on the payment provider, the user's age and legal and banking requirements.
+החשבון שלי|My account
+➕ יצירת/עריכת חשבון|➕ Create/edit account
+חשבון הדגמה|Demo account
+=משתמש|User
+=חשבון אחד|One account
+אימות הורה|Parent verification
+למשתמש קטין נדרש אישור הורה לפני פעילות ותשלומים.|A minor needs parent approval before activity and payments.
+התחלת אימות|Start verification
+חיבור אמצעי קבלת כסף והיסטוריית תשלומים.|Connect payout methods and payment history.
+ניהול תשלומים|Manage payments
+📲 הורדה לטלפון|📲 Add to phone
+אייפון (Safari):|iPhone (Safari):
+כפתור השיתוף ← "הוסף למסך הבית".|Share button → "Add to Home Screen".
+אנדרואיד (Chrome):|Android (Chrome):
+תפריט ⋮ ← "הוספה למסך הבית".|Menu ⋮ → "Add to Home screen".
+האפליקציה תופיע עם האייקון והשם|The app will appear with its icon and the name
+איך המודל עובד?|How does it work?
+=מפרסמים|Post
+הורה/משתמש מפרסם משימה במחיר שנקבע.|A user posts a task at a set price.
+עמלת פרסום|posting fee
+מחיר העבודה × |Job price × 
+נגבה בעת פרסום.|is charged when posting.
+נמצאה התאמה|A match is found
+מבצע לוקח את המשימה והעסקה מאושרת.|A doer takes the task and the deal is approved.
+עוד |Another 
+נגבה עם סגירת העסקה.|is charged when the deal closes.
+סה״כ עמלה לאפליקציה: |Total app fee: 
+לדוגמה: עבודה ב־₪50 →|Example: a ₪50 job →
+בפרסום +|at posting +
+בסגירה =|at closing =
+חשוב: תשלומים אמיתיים לקטינים דורשים בדיקה משפטית, תנאי שימוש, הסכמת הורה וספק תשלומים שתומך במבנה הזה.|Important: real payments for minors require legal review, terms of use, parent consent and a supporting payment provider.
+📌 המשימות שפרסמתי|📌 My posted tasks
+ממתין להצעות|Waiting for offers
+הצעה אחת|1 offer
+הצעות|offers
+דרושים |needed 
+צפייה בהצעות 👀|View offers 👀
+ביטול משימה|Cancel task
+📤 ההצעות ששלחתי|📤 Offers I sent
+=צפייה|View
+הצעות למשימה|Offers for the task
+אושרו |Approved 
+מתוך|of
+מבקש ₪|Asking ₪
+יותר מהמחיר שלך|more than your price
+אישור הצעה|Approve offer
+ביטול אישור|Cancel approval
+✓ אושר · פתח צ'אט|✓ Approved · Open chat
+⚠️ מתחת לגיל המינימלי|⚠️ Below the minimum age
+אי אפשר לאשר|cannot be approved
+פנוי:|Available:
+➕ הגש הצעה בעצמי (בדיקה)|➕ Submit an offer myself (test)
+=שם|Name
+=גיל|Age
+=מחיר|Price
+=מתי פנוי|When available
+גיל |Age 
+ההצעות ששלחתי|Offers I sent
+ההצעה נשלחה! ✓ נעדכן אותך ונפתח צ'אט ברגע שהמפרסם יאשר.|Offer sent! ✓ We'll notify you and open a chat once the poster approves.
+⏳ ממתין לאישור|⏳ Waiting for approval
+✅ אושרה|✅ Approved
+🚫 בוטלה|🚫 Cancelled
+💬 פתח צ'אט|💬 Open chat
+ביטול הצעה|Cancel offer
+אין צ'אטים עדיין. צ'אט נפתח אחרי אישור הצעה.|No chats yet. A chat opens after an offer is approved.
+כתוב הודעה…|Type a message…
+=שלח|Send
+מעכשיו אפשר להתכתב כאן.|From now on you can chat here.
+ואישר/ה את ההצעה שלך|and approved your offer
+פרסם/ה את המשימה|posted the task
+שלום|Hello
+🔔 נשלחה התראה גם ל|🔔 A notification was also sent to 
+🎉 המפרסם אישר את ההצעה שלך למשימה|🎉 The poster approved your offer for the task
+היי! תודה שאישרת 🙏 מתי נוח להתחיל?|Hi! Thanks for approving 🙏 When is a good time to start?
+היי, תודה שהצעת! מתי אתה פנוי להתחיל?|Hi, thanks for your offer! When are you free to start?
+ההצעה אושרה שוב 🎉|Offer approved again 🎉
+האישור בוטל על ידי המפרסם|Approval cancelled by the poster
+ההצעה בוטלה על ידי מי שהגיש אותה|Offer cancelled by the sender
+המשימה בוטלה על ידי המפרסם|Task cancelled by the poster
+מפרסם המשימה|Task poster
+המפרסם|The poster
+ההצעה של |The offer of 
+אושרה ונפתח צ'אט|was approved and a chat opened
+אושרה שוב|was approved again
+ההצעה שלך ל|Your offer for 
+אושרה 🎉|was approved 🎉
+פתח צ'אט|Open chat
+ברוך הבא!|Welcome!
+מה המיקום שלך?|Where are you?
+=צפון|North
+=מרכז|Center
+=דרום|South
+=דלג|Skip
+באיזו עיר בצפון?|Which city in the north?
+באיזו עיר במרכז?|Which city in the center?
+באיזו עיר בדרום?|Which city in the south?
+אפשר להקליד גם יישוב קטן, נחשב מרחק לפי האזור.|You can also type a small town; distance is based on the region.
+שם העיר|City name
+=המשך|Continue
+🎯 זהה אוטומטית|🎯 Detect automatically
+אחרי יצירת חשבון תבחר אזור ועיר, ונציג משימות קרובות אליך.|After creating an account, pick a region and city and we'll show tasks near you.
+נא למלא מה צריך לעשות ומחיר.|Please fill in what's needed and a price.
+נא למלא גיל, מאיפה אתה ומתי אתה פנוי.|Please fill in age, where you're from and when you're available.
+המשימה הזאת מיועדת לגיל|This task is for ages
+ומעלה.|and up.
+לבטל את ההצעה?|Cancel the offer?
+לבטל את המשימה?|Cancel the task?
+לבטל את האישור של|Cancel the approval of
+כבר אושרו כל האנשים שדרושים.|All the needed people were already approved.
+נא למלא שם, גיל ומחיר.|Please fill in name, age and price.
+בגרסה הבאה: תהליך אימות הורה מאובטח|Coming soon: secure parent verification
+מאתר…|Locating…
+נא להקליד עיר|Please type a city
+יסופק בגרסה אמיתית באמצעות ספק תשלומים מאובטח. אין להזין כאן פרטי בנק אמיתיים.|will be provided in the real version via a secure payment provider. Do not enter real bank details here.
+=ללא תאריך|No date`.split('\n').map(l=>l.split('|')),EX=new Map(DICT.filter(d=>d[0][0]==='=').map(d=>[d[0].slice(1),d[1]])),FR=DICT.filter(d=>d[0][0]!=='=').sort((a,b)=>b[0].length-a[0].length);
+let LANG='he';
+const tr=t=>{if(LANG!=='en')return t;const k=t.trim();if(EX.has(k))return t.replace(k,EX.get(k));for(const[h,e]of FR)if(t.includes(h))t=t.split(h).join(e);return t};
+function xl(root){const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let n;while(n=w.nextNode()){const p=n.parentNode.nodeName;if(p==='SCRIPT'||p==='STYLE')continue;if(n.__o===undefined){if(!/[\u0590-\u05ff]/.test(n.nodeValue))continue;n.__o=n.nodeValue}const v=LANG==='en'?tr(n.__o):n.__o;if(n.nodeValue!==v)n.nodeValue=v}
+root.querySelectorAll('[placeholder]').forEach(e=>{if(e.__p===undefined)e.__p=e.placeholder;e.placeholder=LANG==='en'?tr(e.__p):e.__p})}
+const _al=window.alert.bind(window),_cf=window.confirm.bind(window);window.alert=m=>_al(tr(String(m)));window.confirm=m=>_cf(tr(String(m)));
+function setLang(l){LANG=l;const h=document.documentElement;h.lang=l;h.dir=l==='en'?'ltr':'rtl';langBtn.textContent=l==='en'?'עב':'EN';
+renderNearby();renderMine();renderSent();try{renderOffers()}catch(e){}xl(document.body)}
+new MutationObserver(ms=>{if(LANG==='en')ms.forEach(m=>m.target.nodeType===1&&xl(m.target))}).observe(document.body,{childList:true,subtree:true});
+</script>
+</body>
+</html>
